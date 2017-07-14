@@ -1,0 +1,199 @@
+/*---------------------------------------------------------------------- 
+					  // Initial Code //
+---------------------------------------------------------------------*/
+
+*{margin:0;padding:0;}					   
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{ 
+	margin:0; 
+	padding:0; 
+	border:0; 
+	outline:0; 
+	font-size:100%; 
+	vertical-align:baseline; 
+	background:transparent; 
+}
+ol,ul{ 
+	list-style:none; 
+}
+blockquote,q{ 
+	quotes:none; 
+}
+blockquote:before,blockquote:after,q:before,q:after{ 
+	content:''; 
+	content:none; 
+}
+:focus{ 
+	outline:0; 
+}
+ins{ 
+	text-decoration:none; 
+}
+del{ 
+	text-decoration:line-through; 
+}
+table{ 
+	border-collapse:collapse; 
+	border-spacing:0; 
+}
+
+/*---------------------------------------------------------------------
+                             // Common Styles //
+---------------------------------------------------------------------*/
+.skiplink{ 
+	display:none; 
+}
+label{ 
+	cursor:pointer; 
+}
+a,a:visited{ 
+	color:#00f; text-decoration:none; 
+}
+a:focus,a:hover{ 
+	text-decoration:none; 
+}
+.fix{
+  overflow:hidden;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+
+/*---------------------------------------------------------------------
+                             // Body/Biography//
+---------------------------------------------------------------------*/
+body{ 
+	background:url(images/bodybg.png) scroll 0 0 #fff repeat-x; 
+	color:#333; 
+	font-family:Century Gothic, Arial;font-size:14px;line-height:22px;  
+	text-align:center; 
+}
+.Main_area{background:url(images/wrapper.png) repeat-x scroll 0 0 #C5C5C5;
+  width:938px;
+  margin:0 auto;
+  padding:0;
+  margin-top:10px;
+  border-radius:10px;
+  padding:10px 10px 0px;
+  margin:15px auto;
+  font-weight:normal;
+
+}
+    
+/*---------------------------------------------------------------------
+                             // Header //
+---------------------------------------------------------------------*/
+.Header{height:110px;}
+.header_left{}
+.logo{}
+.header_text{margin-left:22px;text-align:justify;margin-top:13px;}
+.header_text h1 {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 60px;
+  margin-bottom: -1px;
+  margin-top: -8px;
+}
+.header_text h2 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 7px;
+  margin-top: 6px;
+}
+.header_right{display:block:width:306px;margin-top:24px;}
+.social_bookmarks{display:block;margin-top:-1px;margin-right:-87px;}
+.social_bookmarks img{margin-left:3px;}
+.Number{font-size:18px;margin-right:12px;margin-top:1px;}
+
+
+
+/*---------------------------------------------------------------------
+                             // Menu //
+---------------------------------------------------------------------*/
+.Menu{background:url(images/menu.png) repeat-x scroll 0 0 #000;border-radius:5px;margin-bottom:10px;line-height:26px;}
+.Menu ul{margin:0;padding:0;text-align:center;}
+.Menu ul li{float:left;background:url(images/seprator.png) no-repeat scroll right center;display:inline;
+   padding: 0px 0px 0px 0px;
+}
+.Menu ul li:last-child{background:none}
+.Menu ul li a{padding:10px 16px;color:#ffffff;display:inline-block;font-size:15px;cursor:pointer;}
+.Menu ul li a:hover{}
+
+
+
+/*---------------------------------------------------------------------
+                             // Slider //
+---------------------------------------------------------------------*/
+.Slider{margin-bottom:2px;}
+.Slider img{width:100%}
+
+
+
+
+
+/*---------------------------------------------------------------------
+                             // Text-content //
+---------------------------------------------------------------------*/
+.Text_content{background:url(images/textconbg.png) repeat scroll 0 0 #fff;border-radius:10px;height:80px;margin-bottom:6px;}
+.Text_content h1{width:290px;font-size:36px;margin-top:22px;font-weight:normal;}
+.p1 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 3px;
+    margin-top: 20px;
+    text-align: left;
+    width: 330px;
+}
+.p2 {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 5px;
+    margin-top: -32px;
+    text-align: left;
+    width: 316px;
+}
+
+
+
+/*---------------------------------------------------------------------
+                             // Call US//
+---------------------------------------------------------------------*/
+.Call_section{height:130px;width:100%;}
+.single_image{
+	width:229px;
+	height:127px;
+	float:left;
+	border-radius:15px;
+	position:relative
+	
+}
+.single_image h2{position:absolute;color:#fff;font-size:18px;text-align:center;width:230px;
+  margin-top:70px;font-weight:normal;
+
+}
+.one{background:url(images/Call_Us1.png);}
+.two{background:url(images/Call_Us2.png);margin-left:7px}
+.three{background:url(images/Call_Us3.png);margin-left:7px}
+.four{background:url(images/Call_Us4.png);margin-left:8px}
+
+
+/*---------------------------------------------------------------------
+                             // Footer //
+---------------------------------------------------------------------*/
+.Footer{background:url(images/footer_bg.png) repeat-x scroll 0 0 transparent;width:100%;padding:15px;
+  margin-left: -10px;height:120px;
+ }
+.Footer ul{margin:0;padding:0;text-align:center;}
+.Footer ul li{display:inline;border-right:1px solid #000;padding:0px 0px;}
+.Footer ul li:last-child{border-right:none}
+.Footer ul li a{display:inline-block;padding:7px 7px;font-size:13px;color:#000;}
+.Footer ul li a:hover{}
+.Footer p{font-size:13px;margin-top: -7px;}
+
+
+
+
+
+
